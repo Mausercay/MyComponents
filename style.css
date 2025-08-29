@@ -1,6 +1,7 @@
-.root{
+:root{
     --primary-color: #ff7833;
     --secundary-color: #31333b;
+    --secundary-color-light:#444856;
 
 }
 
@@ -21,16 +22,66 @@ body{
 
 .main-header{
     flex: 0 0 26rem;
-    background-color:#31333b ;
+    font-size: 1.6rem;
+    background-color:var(--secundary-color) ;
 
 
+}
+
+.nav{
+    text-align: right;
+    padding: 6.5rem 2.4rem 2.4rem 0;
 }
 
 .main{
+    padding: 6.5rem 6rem 7.5rem;
     flex: 1 0;
-    background-color: #444856;
+    font-size: 1.6rem;
+    background-color: var(--secundary-color-light);
 }
+
+.main-title{
+    font-size: 4rem;
+    color: #a8a8a8;
+    margin-top:2rem ;
+    margin-bottom: 3rem;
+}
+h2, h3, h4, h5, h6{
+    color: var(--primary-color);
+    margin: 0;
+}
+
+article{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
 
 a{
     color: inherit ;
 }
+
+
+.perfil-img{
+    max-width: 10rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    display: block;
+    padding: 1.2rem 0;
+    transition: all ease .4s;
+}
+
+.nav-list a:hover{
+    background-color: var(--secundary-color-light);
+    padding-right: 1rem;
+
+}
+
+
+.nav-list li{
+    list-style-type: none;
+    border-bottom: 1px solid #7b7b7b;
+}
+
