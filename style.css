@@ -49,6 +49,7 @@ body{
 h2, h3, h4, h5, h6{
     color: var(--primary-color);
     margin: 0;
+    text-transform: capitalize;
 }
 
 article{
@@ -127,4 +128,15 @@ kbd {
     padding-left: 1em;
     font-size: 1.1em;
     margin-bottom: 1em;
+  }
+
+  .cards{
+    max-width: 500px;
+    background-color: var(--secundary-color);
+    padding: 0;
+  }
+
+  .cards-content{
+    padding: 1em;
+    
   }
