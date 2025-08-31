@@ -73,7 +73,8 @@ a{
     transition: all ease .4s;
 }
 
-.nav-list a:hover{
+.nav-list a:hover,
+.nav-list a:focus{
     background-color: var(--secundary-color-light);
     padding-right: 1rem;
 
