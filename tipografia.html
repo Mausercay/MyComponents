@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos MyComponents</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav">
+            <a href="#">
+                <img src="imagens/perfil.png" alt="logo" class="perfil-img">
+            </a>
+            <ul class="nav-list">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="#">Cards</a></li>
+                <li><a href="#">Listas</a></li>
+                <li><a href="#">Formulario</a></li>
+                <li><a href="#">Botões</a></li>
+                <li><a href="#">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <h1 class="main-title">MyComponents</h1>
+        <article class="main-destaque">
+            <h3 class="destaque">Tipografia</h3>
+            <p>A tipografia transmite nossas definições de tamanhos e espaçamento e deve
+                respeitar a hierarquia dos elementos na interface</p>
+        </article>
+
+        <section>
+            <h3>Elementos</h3>
+
+
+            <article>
+                <h4>textos</h4>
+
+                <p>Esse texto está escrito em <b>negrito</b> e esse é um <strong>texto forte.</strong> </p>
+                <p>Esse texto está em <i>itélico</i> e este está com <em>enfase.</em></p>
+                <p>Isto é um texto escrito de forma <u class="sublinhado">errada</u> e isso é um <a href="#">link</a> </p>
+            </article>
+
+            <article>
+                <h4>Sobreescrito e subescrito</h4>
+                <p>3<sup>2</sup> é igual a 9</p>
+                <p>A formula da água é H<sub>2</sub>O</p>
+            </article>
+
+            <article>
+                <h4>Abreviações</h4>
+                <p>Para criar paginas na web precisamos aprender sobre <dfn id="HTML"> <abbr title="HiperText Markup Language">HTML</abbr></dfn>.</p>
+                <p>O <dfn id="HTML"> <abbr title="HiperText Markup Language">HTML</abbr></dfn> é a principal linguagem da web onde podemos incluir nosso conteúdo de forma semântica</p>
+            </article>
+
+            <article>
+                <h4>Citações</h4>
+                <blockquote>
+                    <p>O ruim não é ter trabalho o ruim é ter que trabalhar</p>
+                    <cite>Seu Madruga</cite>
+                </blockquote>
+
+                <blockquote cite="https://github.com/Mausercay/MyComponents/tree/tipografia">
+                    O Elemento HTMl &lt;blockquote&gt; (Ou Elemento de HTML de citação em bloco) indica 
+                    que o texto incluido é uma longa citação.
+                    <cite>MDN</cite>
+                </blockquote>
+
+                <p>Segundo o Seu Madruga <q>A vingança nunca é plena, mata a alma e envenena</q>.</p>
+
+                <p>
+                    De Acordo com o site da github.
+                    <q cite="https://github.com/Mausercay/MyComponents/tree/tipografia">
+                        github é um repositorio online 
+                    </q>
+                </p>
+
+                O filme <cite>Escola do Rock</cite> Contém várias musicas antigas
+            </article>
+
+            <article>
+                <h4>Coisas de Computador</h4>
+                <p>A propriedade <code>background</code> do CSS serve para colocar uma imagem de fundo</p>
+
+                <pre>
+                    Este texto é um texto pre formatado
+
+                </pre>
+
+                <pre>
+                     
+<code>.nav-list li{
+    list-style-type: none;
+    border-bottom: 1px solid #7b7b7b;
+}</code>
+                </pre>
+
+                <p>
+                    Após executar o metodo <code>push()</code> obitive o retorno <samp lang="en"> undefined has not a push() function</samp>
+                </p>
+
+                <p>pressione a tecla <kbd> CTRL</kbd> + <kbd>C</kbd> para copiar</p>
+            </article>
+
+            <article>
+                <h4>Datas e Horarios</h4>
+
+                <p>O evento ocorrerá em <time datetime="2025-11-10">10 de Novembro de 2025</time>.</p>
+                <p>O evento ocorrerá em <time datetime="2025-11-10">10/11/2025</time>.</p>
+                <p>O evento ocorrerá às <time datetime="2025-11-10T20:00:00-03:00">20h00 do dia 10 de Novembro de 2025</time></p>
+
+                <h5 lang="en-us">Js Conference</h5>
+                <p>O evento iniciará exatamente às <time datetime="19:00">19h00</time>.</p>
+                
+                <p>O evento ocorrerá às 20h00 do dia <del> 10 de Novembro de 2025</del><ins><time datetime="2025-11-10T20:00:00-03:00"> 11 de Novembro de 2025</time></ins>.</p>
+            </article>
+        </section>
+
+    </main>
+    
+</body>
+</html>
