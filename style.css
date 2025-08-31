@@ -57,6 +57,10 @@ article{
     padding-bottom: 1em;
 }
 
+section{
+    margin-bottom: 3rem;
+}
+
 
 a{
     color: inherit ;
@@ -136,7 +140,18 @@ kbd {
     padding: 0;
   }
 
+  .cards img{
+    max-width: 100%;
+  }
+
   .cards-content{
-    padding: 1em;
+    padding: .5em 1em 1em;
     
+  }
+
+.row{
+    display: flex;
+    gap: 3rem;
+    padding-top: 1.5rem ;
+
   }
