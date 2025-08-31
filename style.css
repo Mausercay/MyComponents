@@ -194,5 +194,12 @@ kbd {
     background-color: var(--secundary-color);
     color: inherit;
     border: none;
+    transition: all ease-in .3s;
+  }
+
+  .btn:hover{
+    background-color: var(--primary-color);
+    color: black;
+
   }
 
