@@ -203,3 +203,17 @@ kbd {
 
   }
 
+  .btn-out{
+    background-color: transparent;
+    outline: 2px solid var(--secundary-color);
+    color: inherit;
+    border: none;
+    transition: all ease-in .3s;
+  }
+
+  .btn-out:hover{
+    outline: 2px solid var(--primary-color);
+    color: black;
+   
+  }
+
