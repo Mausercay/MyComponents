@@ -217,3 +217,36 @@ kbd {
    
   }
 
+  .table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table td{
+    padding: 1em;
+    border-bottom: 2px solid var(--secundary-color)
+  }
+
+
+  
+  .table th{
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: left ;
+    border-bottom: 2px solid var(--secundary-color)
+  }
+
+  .table th:last-child,
+  .table td:last-child{
+    text-align: right;
+  }
+
+  .table-zebrada tbody tr:nth-child(odd){
+    background-color: var(--secundary-color);
+
+  }
+
+  .table-vertical{
+
+  }
+
